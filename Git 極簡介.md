@@ -6,17 +6,17 @@
    3. 再用 git clone 專題的網址 將專題下載到你想要的本機目錄之下。
    4. 然後，你就可以在本機做下面動作了：
 - 以下都在終端機進行：
-   5. 前進到那個目錄，鍵入：git init，將該目錄設成git儲存庫(repository)。
-   6. 鍵入 git config --global user.name "GitHub名字"
-   7. 或是，鍵入 git config --global user.email "GitHub email"
-   8. 可以使用 git status 來看看目前你的儲存庫的狀態。
-   9. git add 檔名 或是 . => 把某個檔案或是儲存庫中所有檔案(用黑點的話)加入要做處理的幕前。
-   10. git commit -m "訊息" => 「訊息」是簡要記錄這個板本的變更，用commit讓Git記錄此次的變更。
-   11. git log --oneline => 顯示已經執行檔案的備註
-   12. git diff 還原點編號1 還原點編號2 => 比較兩個還原點編號的差別（不同的行會標出來）
-   13. git checkout 還原點編號 => 回到這個編號的內容，捨棄其後的變動。檔案內容會立刻改變。
-   14. 還原後，還是要做：git add . 以及 git commit -m "訊息"，以記錄變動。
-   15. 使用 git push -u origin main 將修改後的檔案上傳至GitHub中
+   1. 前進到那個目錄，鍵入：git init，將該目錄設成git儲存庫(repository)。
+   2. 鍵入 git config --global user.name "GitHub名字"
+   3. 或是，鍵入 git config --global user.email "GitHub email"
+   4. 可以使用 git status 來看看目前你的儲存庫的狀態。
+   5. git add 檔名 或是 . => 把某個檔案或是儲存庫中所有檔案(用黑點的話)加入要做處理的幕前。
+   6.  git commit -m "訊息" => 「訊息」是簡要記錄這個板本的變更，用commit讓Git記錄此次的變更。
+   7.  git log --oneline => 顯示已經執行檔案的備註
+   8.  git diff 還原點編號1 還原點編號2 => 比較兩個還原點編號的差別（不同的行會標出來）
+   9.  git checkout 還原點編號 => 回到這個編號的內容，捨棄其後的變動。檔案內容會立刻改變。
+   10. 還原後，還是要做：git add . 以及 git commit -m "訊息"，以記錄變動。
+   11. 使用 git push -u origin main 將修改後的檔案上傳至GitHub中
 - 要建立 SSH：
    1. MacBook：
       ``` 
